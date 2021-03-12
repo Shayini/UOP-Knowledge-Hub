@@ -4,24 +4,24 @@
     - Create a folder to install the project
 		- Go to that folder
       ```
-      npm install -g vue-cli
+        npm install -g vue-cli
       ```
       ```
-      vue init webpack
+        vue init webpack
       ```
 		- fill the questions(need vue-router)
       ```
-		  npm install
+		npm install
       ```
 		- If you want to install axios
       ```
-			"npm install --save axios"
+		npm install --save axios
       ```
 		- To run the vue project - Stay in the project folder and run
       ```
-			"npm run dev" in the command prompt
+		npm run dev
       ```
-		9.Finally copy the localhost address displayed in the terminal and past it in the browser
+		- Finally copy the localhost address displayed in the terminal and past it in the browser
 	
 	Help: https://medium.com/codingthesmartway-com-blog/vue-js-2-quickstart-tutorial-2017-246195cfbdd2
   
