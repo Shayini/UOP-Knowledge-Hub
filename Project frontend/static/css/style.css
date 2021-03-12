@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.menu-bar {
+    padding: 20px;
+    text-align: right;
+    color: white;
+}
+.menu-bar a {
+    display: inline;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+.menu-bar a:hover {
+    border-radius: 5px;
+    margin: 5px;
+    background-color: white;
+    color: black;
+}
+.main {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.main input {
+    margin: 30px 10px;
+    height: 30px;
+}
+.main h1 {
+    font-size: 60px;
+    font-family: Cambria;
+    color: black;
+}
+#textbox, #textbox1 {
+    width: 500px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px 5px;
+}
+#textbox1 {
+    margin-left: 20px;
+}
+#searchbox {
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia;
+    border-radius: 5px;
+    color: black;
+    background-color: aliceblue;
+}
+#searchbox:hover {
+    border: 3px outset rgb(109, 108, 112);
+    background-color: white;
+    color: black;
+}
+
+
+.menu-bar h1 {
+    text-align: left;
+    color: black;
+}
+
+.upload h1, .welcome h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.table1 {
+    align-items: center;
+    margin: 20px auto;
+    border: 5px outset rgb(20, 13, 151);
+    border-radius: 5px;
+}
+.table1 tr, .table1 td {
+    padding: 20px;
+    font-size: 15px;
+}
+.required {
+    color: red;
+}
+.upbox,.signin,.signup {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid gray;
+    border-radius: 3px;
+    height: 25px;
+    font-size: 15px;
+}
+.disbox {
+   height: 5em;
+   width: 30em;
+}
+.upfile{
+    font-size: 15px;
+}
+.upsubmit,#signin,#signup {
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: black;
+    background-color: aliceblue;
+}
+.upsubmit:hover,#signin:hover,#signup:hover {
+    border: 3px solid rgb(60, 60, 61);
+    background-color: white;
+    color: black;
+}
+
+
+.signin_box h1,.signup_box h1{
+    margin-bottom: 20px;
+    font-weight: 300px;
+    font-size: 30px;
+}
+.signin_box a {
+    color: black;
+}
+#username,#password,#email {
+    display: block;
+    box-sizing: border-box;
+    padding: 4px;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid;
+    font-weight: 400;
+    font-size: 15px;
+}
+.SearchResult img, .MyUploadsResult img {
+    height: 120px;
+    width: 80px;
+}
+
+.table2 {
+    align-items: center;
+    margin: 20px auto;
+    border: 5px outset rgb(159, 159, 180);
+    border-radius: 5px;
+    background-color: white;
+}
+.table2 td, .table2 tr {
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+.table2 a {
+    text-decoration: none;
+    color:black;
+}
+.table2 a:hover {
+    text-decoration: none;
+    color:blue;
+}
+.delete {
+    height: 25px;
+    width: 60px;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Georgia;
+    border-radius: 5px;
+    color: rgb(250, 246, 246);
+    background-color: rgb(241, 15, 15);
+}
+.delete:hover {
+    border: 3px solid rgb(60, 60, 61);
+    background-color: white;
+    color: black;
+}
+
+
+.table3 {
+    align-items: center;
+    margin: 20px auto;
+    border: 5px outset rgb(159, 159, 180);
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+.user_upload, .MyUploadsResult, .heading, .SearchResult {
+    margin: 20px;
+}
+.table3 td, .table3 tr {
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    background-color: white;
+    border-collapse: collapse;
+}
+.table3 td {
+    border: solid 1px rgb(159, 159, 180);
+    border-left: none;
+    border-right: none;
+}
+.table3 p {
+    font-weight: normal;
+    font-size: 17px;
+}
+.radio {
+    padding-left: 400px;
+}
+.radio1 {
+    margin-left: 50px;
+}
